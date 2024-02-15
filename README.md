@@ -36,8 +36,8 @@ Split and Merge RGB Image
 Split and merge HSV Image
 
 ##### Program:
-### Developed By:
-### Register Number: 
+### Developed By: J.JENISHA
+### Register Number: 212222230056
 
 
 ## Output:
@@ -45,16 +45,21 @@ Split and merge HSV Image
 ### i) Read and display the image
 
 <br>
+import cv2
+img=cv2.imread('BTS.png')
+cv2.imshow('show',img)
 <br>
 
 ### ii)Write the image
 
 <br>
+
 <br>
 
 ### iii)Shape of the Image
 
 <br>
+print(img.shape)
 <br>
 
 ### iv)Access rows and columns
@@ -66,7 +71,23 @@ Split and merge HSV Image
 <br>
 
 ### vi) BGR and RGB to HSV and GRAY
+
+#### RGB to GRAY
 <br>
+import cv2
+
+img=cv2.imread('BTS.png')
+print(type(img))
+print(img.shape)
+
+cv2.imshow('show',img)
+
+
+#gray scale
+img_gray=cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
+print(img_gray.shape)
+cv2.imshow('Gray',img_gray)
+cv2.imwrite('BTS_gray.png',img_gray)
 <br>
 
 ### vii) HSV to RGB and BGR
