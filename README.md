@@ -39,9 +39,6 @@ Split and merge HSV Image
 ### Developed By: J.JENISHA
 ### Register Number: 212222230056
 
-
-## Output:
-
 ### i) Read and display the image
 
 ```
@@ -89,6 +86,55 @@ print(img_gray.shape)
 cv2.imshow('Gray',img_gray)
 cv2.imwrite('BTS_gray.png',img_gray)
 ```
+
+### vii) HSV to RGB and BGR
+<br>
+<br>
+
+### viii) RGB and BGR to YCrCb
+<br>
+<br>
+
+### ix) Split and merge RGB Image
+<br>
+<br>
+
+### x) Split and merge HSV Image
+<br>
+<br>
+
+## Output:
+
+### i) Read and display the image
+<br>
+<br>
+
+### ii)Write the image
+
+<br>
+
+<br>
+
+### iii)Shape of the Image
+
+<br>
+<br>
+
+
+### iv)Access rows and columns
+<br>
+<br>
+
+### v)Cut and paste portion of image
+<br>
+<br>
+
+### vi) BGR and RGB to HSV and GRAY
+
+#### RGB to GRAY
+
+<br>
+<br>
 
 ### vii) HSV to RGB and BGR
 <br>
