@@ -44,11 +44,11 @@ Split and merge HSV Image
 
 ### i) Read and display the image
 
-<br>
+```
 import cv2
 img=cv2.imread('BTS.png')
 cv2.imshow('show',img)
-<br>
+```
 
 ### ii)Write the image
 
@@ -58,9 +58,9 @@ cv2.imshow('show',img)
 
 ### iii)Shape of the Image
 
-<br>
+```
 print(img.shape)
-<br>
+```
 
 ### iv)Access rows and columns
 <br>
@@ -73,7 +73,7 @@ print(img.shape)
 ### vi) BGR and RGB to HSV and GRAY
 
 #### RGB to GRAY
-<br>
+```
 import cv2
 
 img=cv2.imread('BTS.png')
@@ -88,7 +88,7 @@ img_gray=cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
 print(img_gray.shape)
 cv2.imshow('Gray',img_gray)
 cv2.imwrite('BTS_gray.png',img_gray)
-<br>
+```
 
 ### vii) HSV to RGB and BGR
 <br>
